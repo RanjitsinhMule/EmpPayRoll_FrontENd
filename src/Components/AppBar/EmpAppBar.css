@@ -1,0 +1,43 @@
+.muibar{
+    color: black;
+    background: white;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 1920px;
+    height: 75px;
+    opacity: 1;
+    background-color: #FFFFFF;
+}
+
+.Apptitle{
+    height:auto;
+    width:75%;
+    font-size: 20px;
+    text-align: left;
+    margin-top: -40px;
+    margin-left: 50px;
+    background-color:rgb(252, 252, 252);
+    color: green;
+}
+
+.logo{
+    width:3%;
+    height:45%;
+    flex-direction: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.title{
+    margin-top: -30px;
+    margin-left: 50px; 
+    color: green; 
+}
+
+@media screen and (max-width :480px) {
+    .muibar {
+        background: blue;
+        background-color: blue;
+        }
+    
+    }

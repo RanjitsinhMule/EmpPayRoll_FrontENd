@@ -1,0 +1,165 @@
+.EmpCard {
+    margin-top: 50px;
+    margin-left: 210px;
+    margin-right: 50px;
+    width: 910px;
+    height: 850px;
+    background-color:  #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #F5F5F5;
+    border-radius: 8px;
+    opacity: 1;
+    position: static;   
+    text-align: left; 
+}
+
+.FormName{
+    margin-left: 75px;
+    width: 290px;
+    height: 37px;  
+    font: normal normal bold 28px/37px Roboto;;  
+    color: #42515F;
+    text-align: left;
+}
+.emp-name-field { 
+    
+    margin-left: 75px;
+    width: 48px;
+    height: 24px;    
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+.name-box {
+    top: -40px;
+    left: 220px;
+    width: 500px;
+    height: 30px;
+    
+}
+.emp-profile-field {
+    margin-top: 20px;
+    margin-left: 75px;
+    width: 105px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.emp-profile {
+    margin-top: -31px;
+    margin-left: 220px;
+}
+
+.emp-gender-field {
+    top: 445px;
+    margin-left: 75px;
+    width: 58px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.emp-radio-button {
+    margin-top: -32px;
+    margin-left: 220px;
+    
+}
+
+.emp-department-field {
+    top: 515px;
+    margin-left: 75px;
+    width: 95px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+.emp-checkbox {
+    margin-top: -32px;
+    margin-left: 220px;
+    
+}
+
+.emp-salary-field {
+    margin-top: 30px;
+    margin-left: 75px;
+    width: 49px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+.emp-salary {
+    top: -40px;
+    margin-left: 220px;
+    width: 250px;
+    
+}
+
+.emp-date-field {
+    top: 694px;
+    margin-left: 75px;
+    width: 80px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.emp-note-field{
+    margin-left: 75px;
+    font: normal normal normal 18px/24px Roboto;
+}
+.emp-note-box {
+    top: -37px;
+    left: 220px;
+    width: 500px;
+    height: 104px;
+}
+/* .submit-reset-button {
+    margin-top: 30px;    
+    margin-left: 90px;
+} */
+
+.action_container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.action_button {
+    margin: 0px 10px !important;
+    color: #616161 !important;
+    background-color: #E2E2E2 !important;
+    border-color: #969696 !important;
+}
+
+@media only screen and (max-width:480px){
+    .EmpCard {
+        
+        display: flex;
+        padding: 20px 100px;
+        background-color: rgb(252, 252, 252);
+        align-items: center;
+        flex-direction: column;
+        width: 800px;
+        height: 650px;
+        margin-top: 190px;
+        border: 1px solid #F5F5F5;
+        margin: auto;
+    }
+    }
